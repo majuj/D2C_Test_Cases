@@ -47,19 +47,51 @@
         },
         "3": {
           "title": "Password",
-          "id": 8
+          "id": 8,
+          "ideas": {
+            "1": {
+              "title": "Password Format",
+              "id": 17
+            }
+          }
         },
         "4": {
           "title": "Confirm Password",
-          "id": 9
+          "id": 9,
+          "ideas": {
+            "1": {
+              "title": "Password Format",
+              "id": 18
+            },
+            "2": {
+              "title": "Password match",
+              "id": 19
+            }
+          }
         },
         "5": {
           "title": "Security Question",
-          "id": 10
+          "id": 10,
+          "ideas": {
+            "1": {
+              "title": "Option Selection",
+              "id": 20
+            }
+          }
         },
         "6": {
           "title": "Security Answer",
-          "id": 11
+          "id": 11,
+          "ideas": {
+            "1": {
+              "title": "Special Characters Allowed",
+              "id": 21
+            },
+            "2": {
+              "title": "Maximum length allowed",
+              "id": 22
+            }
+          }
         }
       }
     },
