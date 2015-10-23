@@ -1,0 +1,79 @@
+{
+  "title": "Registration",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Account",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Email Address",
+          "id": 6,
+          "ideas": {
+            "1": {
+              "title": "Longest domain possible",
+              "id": 12
+            },
+            "2": {
+              "title": "Email format",
+              "id": 13
+            }
+          }
+        },
+        "2": {
+          "title": "Confirm Email Address",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "Longest domain possible",
+              "id": 14,
+              "attr": {
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "Email format",
+              "id": 15,
+              "attr": {
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "Match email",
+              "id": 16
+            }
+          }
+        },
+        "3": {
+          "title": "Password",
+          "id": 8
+        },
+        "4": {
+          "title": "Confirm Password",
+          "id": 9
+        },
+        "5": {
+          "title": "Security Question",
+          "id": 10
+        },
+        "6": {
+          "title": "Security Answer",
+          "id": 11
+        }
+      }
+    },
+    "2": {
+      "title": "Regulatory - Other",
+      "id": 4
+    },
+    "-1": {
+      "title": "Regulator - Personal",
+      "id": 3
+    },
+    "-2": {
+      "title": "Bank",
+      "id": 5
+    }
+  }
+}
