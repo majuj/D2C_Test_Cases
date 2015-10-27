@@ -1,5 +1,123 @@
 {
   "title": "Tool 6",
   "id": 1,
-  "formatVersion": 2
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Wizard",
+      "id": 2
+    },
+    "11": {
+      "title": "Input Tools Panel",
+      "id": 4,
+      "attr": {
+        "style": {}
+      }
+    },
+    "21": {
+      "title": "Portfolio Selection",
+      "id": 5,
+      "attr": {
+        "style": {}
+      }
+    },
+    "31": {
+      "title": "388 - Target Likelihood Panel",
+      "id": 6,
+      "attr": {
+        "position": [
+          61.5,
+          91,
+          1
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Pot / Income switch",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "Default to Pot",
+              "id": 8
+            },
+            "2": {
+              "title": "Always active",
+              "id": 9
+            },
+            "3": {
+              "title": "Matches the switch on the input tools panel",
+              "id": 10
+            }
+          }
+        },
+        "2": {
+          "title": "Likelihood box",
+          "id": 11,
+          "ideas": {
+            "1": {
+              "title": "Data consistent with the service call",
+              "id": 12
+            },
+            "2": {
+              "title": "Updates when Pot/Income switched",
+              "id": 13
+            },
+            "3": {
+              "title": "Likelihood color and icon varies with the value",
+              "id": 14,
+              "ideas": {
+                "1": {
+                  "title": "Green for likely",
+                  "id": 15
+                },
+                "2": {
+                  "title": "Orange for moderate",
+                  "id": 16
+                },
+                "3": {
+                  "title": "Red for unlikely",
+                  "id": 17
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "Info Box",
+          "id": 18,
+          "ideas": {
+            "1": {
+              "title": "Always displayed, under the panel",
+              "id": 19
+            }
+          }
+        },
+        "4": {
+          "title": "Tube Graphic",
+          "id": 20,
+          "ideas": {
+            "1": {
+              "title": "Goal line thicker if behind another line",
+              "id": 21
+            },
+            "2": {
+              "title": "Data consistent with the server response",
+              "id": 22
+            },
+            "3": {
+              "title": "General Design",
+              "id": 23,
+              "ideas": {
+                "1": {
+                  "title": "Labels in bubbles",
+                  "id": 24
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
