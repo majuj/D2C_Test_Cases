@@ -4,8 +4,236 @@
   "formatVersion": 2,
   "ideas": {
     "1": {
-      "title": "Wizard",
-      "id": 2
+      "title": "685 - Wizard",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "General design",
+          "ideas": {
+            "3": {
+              "title": "input fields are not formatted when typing in",
+              "ideas": {},
+              "id": 68
+            },
+            "4": {
+              "title": "input fields are formatted when losing focus",
+              "id": 69
+            },
+            "5": {
+              "title": "only digits are accepted as input",
+              "id": 70
+            },
+            "6": {
+              "title": "Transitions slide up/down",
+              "id": 71
+            },
+            "7": {
+              "title": "No back/edit buttons",
+              "id": 72
+            }
+          },
+          "id": 65,
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Age/Pension",
+          "id": 73,
+          "ideas": {
+            "1": {
+              "title": "Pot/Income value appears only once age, retirement age and reason are fulfilled",
+              "id": 74
+            },
+            "2": {
+              "title": "Forward button available once everything validated",
+              "id": 77
+            },
+            "3": {
+              "title": "invalid data error popover",
+              "id": 78
+            }
+          }
+        },
+        "3": {
+          "title": "Goal definition",
+          "id": 79,
+          "ideas": {
+            "1": {
+              "title": "no initial value",
+              "id": 80
+            },
+            "2": {
+              "title": "number format",
+              "id": 81,
+              "ideas": {
+                "1": {
+                  "title": "Max value = £40,000",
+                  "id": 82
+                }
+              }
+            }
+          }
+        },
+        "4": {
+          "title": "Investment reason",
+          "id": 83,
+          "ideas": {
+            "1": {
+              "title": "Data inherited from previous questions",
+              "id": 84
+            },
+            "2": {
+              "title": "default month = current month",
+              "id": 85
+            },
+            "3": {
+              "title": "default month = current year + selected time period",
+              "id": 86
+            },
+            "4": {
+              "title": "Age, Time period and dates updated on each modification",
+              "id": 87
+            }
+          }
+        },
+        "5": {
+          "title": "I'm looking for",
+          "id": 88,
+          "ideas": {
+            "1": {
+              "title": "Default tab matches option from previous questions",
+              "id": 89,
+              "ideas": {
+                "1": {
+                  "title": "Income tab selected by default",
+                  "id": 90
+                },
+                "2": {
+                  "title": "Pot tab selected by default",
+                  "id": 91
+                },
+                "3": {
+                  "title": "Help tab selected by default",
+                  "id": 92
+                }
+              }
+            },
+            "2": {
+              "title": "Continue button clickable",
+              "id": 93,
+              "ideas": {
+                "1": {
+                  "title": "Inactive with invalid fields",
+                  "id": 94,
+                  "ideas": {
+                    "1": {
+                      "title": "invalid fields highlighted",
+                      "id": 96
+                    }
+                  }
+                },
+                "2": {
+                  "title": "active with all valid fields",
+                  "id": 95
+                }
+              }
+            }
+          }
+        },
+        "6": {
+          "title": "How much do you want to invest?",
+          "id": 97,
+          "ideas": {
+            "1": {
+              "title": "Initial value = 0",
+              "id": 98
+            },
+            "2": {
+              "title": "Number format",
+              "id": 99,
+              "ideas": {
+                "1": {
+                  "title": "Lump Sum - 8 characters max",
+                  "id": 100
+                },
+                "2": {
+                  "title": "Personal contribution - 6 characters max",
+                  "id": 101
+                },
+                "3": {
+                  "title": "Employer contribution - 6 characters max",
+                  "id": 102
+                }
+              }
+            },
+            "3": {
+              "title": "\"My employer will also be contributing\" checkbox",
+              "id": 103,
+              "ideas": {
+                "1": {
+                  "title": "checked - Employer contribution field available",
+                  "id": 104,
+                  "ideas": {
+                    "1": {
+                      "title": "Lump Sum, Personal Contribution and Employer contribution mandatory to continue",
+                      "id": 105
+                    }
+                  }
+                },
+                "2": {
+                  "title": "unchecked - Employer contribution field unavailable",
+                  "id": 106,
+                  "ideas": {
+                    "1": {
+                      "title": "Lump Sum and Personal Contribution mandatory to continue",
+                      "id": 108,
+                      "attr": {
+                        "style": {}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "7": {
+          "title": "Existing Retirement Savings",
+          "id": 109,
+          "ideas": {
+            "1": {
+              "title": "Initial value = 0",
+              "id": 110
+            },
+            "2": {
+              "title": "Policy format",
+              "id": 111,
+              "ideas": {
+                "1": {
+                  "title": "Policy values - 8 characters maximum",
+                  "id": 112
+                },
+                "2": {
+                  "title": "Policy name size fits the input field",
+                  "id": 113
+                }
+              }
+            },
+            "3": {
+              "title": "10 Existing Policies maximum",
+              "id": 114,
+              "attr": {
+                "style": {}
+              }
+            },
+            "4": {
+              "title": "10 Defined Benefits maximum",
+              "id": 115
+            }
+          }
+        }
+      }
     },
     "11": {
       "title": "389 - Input Tools Panel",
@@ -493,5 +721,6 @@
       "position": "left"
     },
     "progress": "failure"
-  }
+  },
+  "links": []
 }
