@@ -88,7 +88,7 @@
               "id": 85
             },
             "3": {
-              "title": "default month = current year + selected time period",
+              "title": "default year = current year + selected time period",
               "id": 86
             },
             "4": {
@@ -226,10 +226,6 @@
               "attr": {
                 "style": {}
               }
-            },
-            "4": {
-              "title": "10 Defined Benefits maximum",
-              "id": 115
             }
           }
         }
